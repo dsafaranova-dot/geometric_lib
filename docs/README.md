@@ -1,10 +1,45 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
+# geometric_lib
 
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+## Общее описание 
+Библиотека, содержащая утилиты для нахождения периметра и площади квадрата и круга. 
+
+## Описание функций
+
+### circle.py
+
+#### area(r)
+Возвращает площадь круга радиусом r
+    
+Пример:
+    >>> area(5)
+    78.53981633974483
+
+#### perimeter(r):
+Возвращает периметр круга радиусом r
+        
+Пример: 
+    >>> perimetr(5)
+    31.41592653589793
+
+### square.py
+
+#### area(a)
+Возвращает площадь квадрата со стороной a 
+    
+Пример: 
+    >>> area(7)
+    49
+
+
+
+#### perimeter(a)
+Возвращает периметр квадрата со стороной a 
+    
+Пример: 
+    >>> perimeter(8)
+    32
+
+## История изменений проекта 
+- `8ba9aeb` - L-03: Circle and square added
+- `d078c8d` - L-03: Docs added
+- `5d0bf26` - Add docstrings to functions
