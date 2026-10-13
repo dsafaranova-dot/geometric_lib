@@ -47,3 +47,9 @@
 - `8ba9aeb` - L-03: Circle and square added
 - `d078c8d` - L-03: Docs added
 - `5d0bf26` - Add docstrings to functions
+
+### Код 
+```py
+    print("Hello world!")
+```
+
