@@ -16,6 +16,8 @@ class SquareTestCase(unittest.TestCase):
     def test_perimeter_zero(self):
         self.assertEqual(perimeter(0), 0)
 
+'''    def test_perimeter_zero(self):
+        self.assertEqual(perimeter(0), 5)'''
 
 if __name__ == '__main__':
     unittest.main()
